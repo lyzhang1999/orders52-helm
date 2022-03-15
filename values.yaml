@@ -1,7 +1,6 @@
 # Default values for go-gin-stack.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-
 nocalhost:
   backend:
     dev:
@@ -18,7 +17,7 @@ image:
   repository: ghcr.io/lyzhang1999/orders52
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "main"
+  tag: "ghcr.io/lyzhang1999/orders52:main"
 frontImage:
   repository: ghcr.io/lyzhang1999/orders52-front
   pullPolicy: Always
